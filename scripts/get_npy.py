@@ -268,6 +268,9 @@ def load_custom_parquet_waveform(path: Path) -> pd.DataFrame:
     except (TypeError, ValueError) as exc:
         raise ValueError(f'CSV contains invalid time or acceleration values: {exc}') from exc
 
+    # handle for wonky timestamps
+    data = data.sort_values('time')
+
     # Trim leading and trailing rows where acceleration columns are NaN
     valid_mask = data[['x', 'y', 'z']].notna().all(axis=1)
     if valid_mask.any():
@@ -277,6 +280,7 @@ def load_custom_parquet_waveform(path: Path) -> pd.DataFrame:
 
     # handle for wonky timestamps
     data = data.sort_values('time')
+    data = data.drop_duplicates(subset=['time'], keep='first')
 
     if len(data) < 2:
         raise ValueError('CSV must contain at least two samples')
