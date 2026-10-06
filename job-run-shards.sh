@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=sensori_shard
-#SBATCH --time=01:00:00          # ~100 files per task takes ~25 mins
+#SBATCH --time=04:00:00
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=24G
 #SBATCH --mail-user=lmcheesman1@sheffield.ac.uk
