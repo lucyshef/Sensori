@@ -1,3 +1,7 @@
+# Lucy's notes
+- modified get_npy.py to run on ,y M/s^2 joined parquet files (so basically select time + acc_x,y,z only, rename cols and convert to g)
+- created conda env `sensori` on hpc
+
 # Sensori
 
 *Learning health from a day in motion.*
