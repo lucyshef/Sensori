@@ -1,0 +1,17 @@
+--- Task 3/25 ---
+Total files found: 2426
+Processing index 194 to 290 (97 files)
+
+Task 2:   0%|          | 0/97 [00:00<?, ?it/s]No NPY files written; failed QC: calibration_ok
+Task 2:   7%|▋         | 7/97 [01:29<19:16, 12.85s/it]Task 2:   8%|▊         | 8/97 [03:11<41:19, 27.85s/it]Task 2:   9%|▉         | 9/97 [03:49<43:51, 29.90s/it]No NPY files written; failed QC: calibration_ok
+Task 2:  10%|█         | 10/97 [05:13<1:00:26, 41.68s/it]No NPY files written; failed QC: calibration_ok
+Task 2:  11%|█▏        | 11/97 [06:40<1:15:07, 52.41s/it]No NPY files written; failed QC: calibration_ok
+Task 2:  12%|█▏        | 12/97 [08:08<1:26:52, 61.32s/it]No NPY files written; failed QC: calibration_ok
+Task 2:  13%|█▎        | 13/97 [09:34<1:35:01, 67.87s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
+Task 2:  14%|█▍        | 14/97 [09:55<1:16:02, 54.97s/it]No NPY files written; failed QC: calibration_ok
+Task 2:  15%|█▌        | 15/97 [11:19<1:26:30, 63.29s/it]No NPY files written; failed QC: calibration_ok
+Task 2:  16%|█▋        | 16/97 [12:46<1:34:43, 70.16s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
+Task 2:  18%|█▊        | 17/97 [13:27<1:22:12, 61.65s/it]No NPY files written; failed QC: calibration_ok
+Task 2:  19%|█▊        | 18/97 [14:52<1:30:10, 68.49s/it]No NPY files written; failed QC: calibration_ok
+Task 2:  20%|█▉        | 19/97 [16:20<1:36:20, 74.11s/it]No NPY files written; failed QC: calibration_ok
+Task 2:  21%|██        | 20/97 [17:44<1:38:59, 77.14s/it]

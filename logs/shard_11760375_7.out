@@ -1,0 +1,12 @@
+--- Task 8/25 ---
+Total files found: 2426
+Processing index 679 to 775 (97 files)
+
+Task 7:   0%|          | 0/97 [00:00<?, ?it/s]
+[Task 7] Error processing 24198_T3_AX6_03102022_acc_gyr.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.
+Task 7:   6%|▌         | 6/97 [00:01<00:19,  4.56it/s]Task 7:   7%|▋         | 7/97 [01:56<33:34, 22.39s/it]Task 7:   8%|▊         | 8/97 [03:39<58:52, 39.69s/it]No NPY files written; failed QC: calibration_ok
+Task 7:   9%|▉         | 9/97 [05:07<1:14:50, 51.03s/it]No NPY files written; failed QC: calibration_ok
+Task 7:  10%|█         | 10/97 [06:34<1:27:08, 60.10s/it]No NPY files written; failed QC: calibration_ok
+Task 7:  11%|█▏        | 11/97 [07:59<1:35:39, 66.74s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
+Task 7:  12%|█▏        | 12/97 [09:22<1:40:45, 71.13s/it]Task 7:  13%|█▎        | 13/97 [11:04<1:51:41, 79.78s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
+Task 7:  14%|█▍        | 14/97 [12:08<1:44:06, 75.25s/it]Task 7:  15%|█▌        | 15/97 [13:45<1:51:42, 81.74s/it]Task 7:  16%|█▋        | 16/97 [15:28<1:58:27, 87.75s/it]Task 7:  18%|█▊        | 17/97 [16:43<1:52:00, 84.01s/it]Task 7:  19%|█▊        | 18/97 [18:06<1:50:23, 83.84s/it]

@@ -1,0 +1,10 @@
+--- Task 22/25 ---
+Total files found: 2426
+Processing index 2037 to 2133 (97 files)
+
+Task 21:   0%|          | 0/97 [00:00<?, ?it/s]No NPY files written; failed QC: calibration_ok
+Task 21:   7%|▋         | 7/97 [01:20<17:12, 11.47s/it]Task 21:   8%|▊         | 8/97 [02:49<36:35, 24.66s/it]Task 21:   9%|▉         | 9/97 [04:24<56:09, 38.29s/it]Task 21:  10%|█         | 10/97 [05:55<1:12:14, 49.82s/it]Task 21:  11%|█▏        | 11/97 [07:25<1:25:14, 59.48s/it]No NPY files written; failed QC: calibration_ok, mean_acceleration_ok
+Task 21:  12%|█▏        | 12/97 [08:43<1:30:51, 64.14s/it]No NPY files written; failed QC: calibration_ok
+Task 21:  13%|█▎        | 13/97 [10:03<1:35:38, 68.31s/it]No NPY files written; failed QC: calibration_ok
+Task 21:  14%|█▍        | 14/97 [11:23<1:38:43, 71.37s/it]Task 21:  15%|█▌        | 15/97 [12:54<1:45:18, 77.06s/it]No NPY files written; failed QC: calibration_ok
+Task 21:  16%|█▋        | 16/97 [14:11<1:43:59, 77.03s/it]Task 21:  18%|█▊        | 17/97 [15:42<1:48:14, 81.18s/it]Task 21:  19%|█▊        | 18/97 [17:18<1:52:29, 85.44s/it]

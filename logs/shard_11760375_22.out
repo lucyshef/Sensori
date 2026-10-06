@@ -1,0 +1,12 @@
+--- Task 23/25 ---
+Total files found: 2426
+Processing index 2134 to 2230 (97 files)
+
+Task 22:   0%|          | 0/97 [00:00<?, ?it/s]No NPY files written; failed QC: calibration_ok
+Task 22:   6%|▌         | 6/97 [01:38<24:58, 16.47s/it]No NPY files written; failed QC: calibration_ok
+Task 22:   7%|▋         | 7/97 [03:16<48:03, 32.04s/it]No NPY files written; failed QC: calibration_ok
+Task 22:   8%|▊         | 8/97 [04:53<1:08:25, 46.13s/it]Task 22:   9%|▉         | 9/97 [06:55<1:33:48, 63.96s/it]No NPY files written; failed QC: calibration_ok
+Task 22:  10%|█         | 10/97 [08:35<1:45:46, 72.95s/it]Task 22:  11%|█▏        | 11/97 [10:29<2:00:15, 83.91s/it]No NPY files written; failed QC: calibration_ok
+Task 22:  12%|█▏        | 12/97 [12:09<2:04:57, 88.21s/it]No NPY files written; failed QC: calibration_ok
+Task 22:  13%|█▎        | 13/97 [13:51<2:09:01, 92.16s/it]Task 22:  14%|█▍        | 14/97 [15:49<2:17:44, 99.57s/it]No NPY files written; failed QC: calibration_ok
+Task 22:  15%|█▌        | 15/97 [17:27<2:15:18, 99.01s/it]

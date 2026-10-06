@@ -1,0 +1,12 @@
+--- Task 9/25 ---
+Total files found: 2426
+Processing index 776 to 872 (97 files)
+
+Task 8:   0%|          | 0/97 [00:00<?, ?it/s]Task 8:   8%|▊         | 8/97 [01:51<20:41, 13.95s/it]Task 8:   9%|▉         | 9/97 [03:38<41:03, 28.00s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  10%|█         | 10/97 [05:04<55:33, 38.31s/it]Task 8:  11%|█▏        | 11/97 [06:42<1:12:12, 50.37s/it]Task 8:  12%|█▏        | 12/97 [08:17<1:25:48, 60.57s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  13%|█▎        | 13/97 [09:39<1:31:51, 65.61s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  14%|█▍        | 14/97 [11:05<1:38:10, 70.97s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  15%|█▌        | 15/97 [12:33<1:43:02, 75.39s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  16%|█▋        | 16/97 [14:02<1:47:14, 79.44s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  18%|█▊        | 17/97 [15:31<1:49:31, 82.15s/it]Task 8:  19%|█▊        | 18/97 [17:07<1:53:10, 85.95s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  20%|█▉        | 19/97 [18:34<1:52:15, 86.36s/it]
