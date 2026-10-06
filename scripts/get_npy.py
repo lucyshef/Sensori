@@ -57,7 +57,8 @@ MAX_INTERRUPTS_EXCLUSIVE = 10
 
 DEVICE_SUFFIXES = ('.cwa', '.cwa.gz', '.gt3x', '.gt3x.gz', '.bin', '.bin.gz')
 CSV_SUFFIXES = ('.csv', '.csv.gz')
-SUPPORTED_SUFFIXES = DEVICE_SUFFIXES + CSV_SUFFIXES
+PARQUET_SUFFIXES = (".parquet",)
+SUPPORTED_SUFFIXES = DEVICE_SUFFIXES + CSV_SUFFIXES + PARQUET_SUFFIXES
 
 EXIT_OK = 0
 EXIT_ERROR = 1
@@ -209,12 +210,53 @@ def derive_output_name(input_path: Path, requested_name: str | None) -> str:
 def is_csv_input(path: Path) -> bool:
     return path.name.lower().endswith(CSV_SUFFIXES)
 
+def is_parquet_input(path: Path) -> bool:
+    return path.name.lower().endswith(PARQUET_SUFFIXES)
+
 
 def load_csv_waveform(path: Path) -> pd.DataFrame:
     """Read and validate a custom waveform CSV without silently dropping rows."""
 
     required = {'time', 'x', 'y', 'z'}
     data = pd.read_csv(path, usecols=lambda column: column in required)
+    missing = sorted(required.difference(data.columns))
+    if missing:
+        raise ValueError(f'CSV is missing required columns: {", ".join(missing)}')
+
+    try:
+        data['time'] = pd.to_datetime(data['time'], errors='raise')
+        for column in ('x', 'y', 'z'):
+            data[column] = pd.to_numeric(data[column], errors='raise')
+    except (TypeError, ValueError) as exc:
+        raise ValueError(f'CSV contains invalid time or acceleration values: {exc}') from exc
+
+    if len(data) < 2:
+        raise ValueError('CSV must contain at least two samples')
+    if data['time'].isna().any() or data[['x', 'y', 'z']].isna().any().any():
+        raise ValueError('input CSV must not contain missing time or acceleration values')
+    if not np.isfinite(data[['x', 'y', 'z']].to_numpy()).all():
+        raise ValueError('input CSV must contain only finite acceleration values')
+    if data['time'].duplicated().any() or not data['time'].is_monotonic_increasing:
+        raise ValueError('input CSV timestamps must be unique and strictly increasing')
+
+    return data.loc[:, ['time', 'x', 'y', 'z']].set_index('time')
+
+def load_custom_parquet_waveform(path: Path) -> pd.DataFrame:
+    """Read and validate a custom waveform CSV without silently dropping rows."""
+
+    # og_cols = {'time_gyr', 'acc_x', 'acc_y', 'acc_z'}
+    required = {'time', 'x', 'y', 'z'}
+    data = pd.read_parquet(path, columns=['time_gyr', 'acc_x', 'acc_y', 'acc_z'])
+    data = data.rename(
+        columns={
+            "time_gyr": "time",
+            "acc_x": "x",
+            "acc_y": "y",
+            "acc_z": "z",
+        }
+    )
+    STANDARD_GRAVITY = 9.80665 # need to convert from M/s^2
+    data[["x", "y", "z"]] = data[["x", "y", "z"]] / STANDARD_GRAVITY
     missing = sorted(required.difference(data.columns))
     if missing:
         raise ValueError(f'CSV is missing required columns: {", ".join(missing)}')
@@ -350,9 +392,11 @@ def read_and_process_recording(
         'verbose': actipy_verbose,
     }
     csv_input = is_csv_input(input_path)
+    parquet_input = is_parquet_input(input_path)
     inferred_rate: float | None = None
 
     if csv_input:
+        # LOGGER.warning("TRIGGERING CSV INPUT")
         source_data = load_csv_waveform(input_path)
         inferred_rate = infer_sample_rate(source_data.index)
         source_rate = config.input_sample_rate_hz or inferred_rate
@@ -373,6 +417,28 @@ def read_and_process_recording(
         data, signal_info = actipy_module.process(source_data, source_rate, **common_kwargs)
         del source_data
         signal_info = dict(signal_info)
+    elif parquet_input:
+        source_data = load_custom_parquet_waveform(input_path)
+        inferred_rate = infer_sample_rate(source_data.index)
+        source_rate = config.input_sample_rate_hz or inferred_rate
+        if source_rate <= 2 * config.lowpass_hz:
+            raise ValueError(
+                f'CSV input sample rate must be greater than {2 * config.lowpass_hz:g} Hz '
+                f'to apply the {config.lowpass_hz:g} Hz low-pass filter; received {source_rate:g} Hz'
+            )
+        if config.input_sample_rate_hz is None:
+            LOGGER.info('Inferred CSV input sample rate: %.6g Hz', source_rate)
+        elif not np.isclose(source_rate, inferred_rate, rtol=0.01):
+            LOGGER.warning(
+                'Configured CSV input rate %.6g Hz differs from timestamp-derived rate %.6g Hz',
+                source_rate,
+                inferred_rate,
+            )
+        csv_interrupts = _csv_interrupt_count(source_data.index, source_rate)
+        data, signal_info = actipy_module.process(source_data, source_rate, **common_kwargs)
+        del source_data
+        signal_info = dict(signal_info)
+
     else:
         data, signal_info = actipy_module.read_device(str(input_path), **common_kwargs)
         signal_info = dict(signal_info)
@@ -387,7 +453,7 @@ def read_and_process_recording(
     signal_data, resample_info = processing.resample(data, config.target_sample_rate_hz)
     del data
     signal_info.update(resample_info)
-    if csv_input:
+    if csv_input or parquet_input:
         signal_info.setdefault('Filename', str(input_path))
         signal_info.setdefault('SampleRate', source_rate)
         signal_info.setdefault('ReadOK', 1)
@@ -401,7 +467,7 @@ def read_and_process_recording(
     signal_frame = _normalise_actipy_frame(signal_data, 'signal processed')
     signal_frame['is_wear'] = wear_flags
 
-    validated_info = _validate_actipy_metadata(dict(signal_info), csv_input=csv_input)
+    validated_info = _validate_actipy_metadata(dict(signal_info), csv_input=csv_input or parquet_input)
     return signal_frame, validated_info, dict(wear_info), inferred_rate
 
 
@@ -637,7 +703,7 @@ def parse_recording(
     if not input_path.is_file():
         raise FileNotFoundError(f'input recording not found: {input_path}')
     strip_supported_suffix(input_path.name)
-    if config.input_sample_rate_hz is not None and not is_csv_input(input_path):
+    if config.input_sample_rate_hz is not None and not (is_csv_input(input_path) or is_parquet_input(input_path)):
         raise ValueError('--input-sample-rate applies only to CSV/CSV.GZ input')
 
     output_name = derive_output_name(input_path, output_name)
