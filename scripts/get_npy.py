@@ -268,6 +268,15 @@ def load_custom_parquet_waveform(path: Path) -> pd.DataFrame:
     except (TypeError, ValueError) as exc:
         raise ValueError(f'CSV contains invalid time or acceleration values: {exc}') from exc
 
+    # datetime conversion (NOT super convinced this is correct but lets see)
+    try:
+        # Convert Unix seconds float (e.g. 1.644538e+09) to datetime64[ns]
+        data['time'] = pd.to_datetime(data['time'], unit='s', errors='raise')
+        for column in ('x', 'y', 'z'):
+            data[column] = pd.to_numeric(data[column], errors='raise')
+    except (TypeError, ValueError) as exc:
+        raise ValueError(f'Parquet contains invalid time or acceleration values: {exc}') from exc
+
     # handle for wonky timestamps
     data = data.sort_values('time')
 
