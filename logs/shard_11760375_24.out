@@ -20,4 +20,28 @@ Processing index 2328 to 2425 (98 files)
 Task 24:  34%|███▎      | 33/98 [38:45<1:35:37, 88.27s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
 Task 24:  35%|███▍      | 34/98 [38:54<1:08:44, 64.45s/it]Task 24:  36%|███▌      | 35/98 [40:30<1:17:38, 73.95s/it]Task 24:  37%|███▋      | 36/98 [42:07<1:23:23, 80.70s/it]No NPY files written; failed QC: calibration_ok
 Task 24:  38%|███▊      | 37/98 [43:31<1:23:15, 81.90s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
-Task 24:  39%|███▉      | 38/98 [44:56<1:22:48, 82.80s/it]
+Task 24:  39%|███▉      | 38/98 [44:56<1:22:48, 82.80s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  40%|███▉      | 39/98 [46:20<1:21:42, 83.09s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  41%|████      | 40/98 [47:46<1:21:04, 83.87s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  42%|████▏     | 41/98 [49:10<1:19:45, 83.95s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  43%|████▎     | 42/98 [50:34<1:18:18, 83.90s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  44%|████▍     | 43/98 [51:59<1:17:13, 84.24s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  45%|████▍     | 44/98 [53:24<1:16:12, 84.67s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  46%|████▌     | 45/98 [54:49<1:14:43, 84.60s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  47%|████▋     | 46/98 [56:15<1:13:38, 84.97s/it]Task 24:  48%|████▊     | 47/98 [57:53<1:15:44, 89.11s/it]Task 24:  49%|████▉     | 48/98 [59:27<1:15:24, 90.50s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  50%|█████     | 49/98 [1:00:52<1:12:31, 88.80s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  51%|█████     | 50/98 [1:02:16<1:09:46, 87.21s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  52%|█████▏    | 51/98 [1:03:40<1:07:39, 86.38s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  53%|█████▎    | 52/98 [1:05:04<1:05:47, 85.81s/it]Task 24:  54%|█████▍    | 53/98 [1:06:47<1:08:01, 90.70s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  55%|█████▌    | 54/98 [1:08:12<1:05:16, 89.02s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  56%|█████▌    | 55/98 [1:09:38<1:03:08, 88.10s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  57%|█████▋    | 56/98 [1:11:21<1:04:55, 92.76s/it]Task 24:  58%|█████▊    | 57/98 [1:12:59<1:04:22, 94.20s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
+Task 24:  59%|█████▉    | 58/98 [1:13:05<45:17, 67.94s/it]  No NPY files written; failed QC: calibration_ok
+Task 24:  60%|██████    | 59/98 [1:14:32<47:42, 73.40s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  61%|██████    | 60/98 [1:15:56<48:37, 76.79s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  62%|██████▏   | 61/98 [1:17:24<49:26, 80.17s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  63%|██████▎   | 62/98 [1:18:51<49:15, 82.09s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  64%|██████▍   | 63/98 [1:20:16<48:20, 82.87s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  65%|██████▌   | 64/98 [1:21:41<47:18, 83.48s/it]No NPY files written; failed QC: calibration_ok
+Task 24:  66%|██████▋   | 65/98 [1:23:01<45:21, 82.47s/it]Task 24:  67%|██████▋   | 66/98 [1:24:19<43:16, 81.14s/it]Task 24:  68%|██████▊   | 67/98 [1:25:41<42:04, 81.43s/it]No NPY files written; failed QC: interrupts_ok, eligible_day_available
+Task 24:  69%|██████▉   | 68/98 [1:27:18<43:01, 86.06s/it]

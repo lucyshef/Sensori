@@ -10,4 +10,19 @@ Processing index 582 to 678 (97 files)
 Task 6:  24%|██▎       | 23/97 [26:31<1:59:36, 96.99s/it]Task 6:  25%|██▍       | 24/97 [28:25<2:04:00, 101.92s/it]Task 6:  26%|██▌       | 25/97 [30:15<2:05:27, 104.54s/it]Task 6:  27%|██▋       | 26/97 [32:01<2:04:08, 104.91s/it]Task 6:  28%|██▊       | 27/97 [33:48<2:03:10, 105.57s/it]Task 6:  29%|██▉       | 28/97 [35:27<1:59:16, 103.72s/it]Task 6:  30%|██▉       | 29/97 [37:14<1:58:25, 104.49s/it]Task 6:  31%|███       | 30/97 [38:56<1:55:53, 103.78s/it]Task 6:  32%|███▏      | 31/97 [40:53<1:58:40, 107.88s/it]
 [Task 6] Error processing 24155_T4_MM_11042023_acc_gyr.parquet: Parquet contains invalid time or acceleration values: cannot convert input with unit 's'
 Task 6:  33%|███▎      | 32/97 [41:16<1:29:19, 82.45s/it] No NPY files written; failed QC: calibration_ok, eligible_day_available
-Task 6:  34%|███▍      | 33/97 [42:34<1:26:31, 81.11s/it]Task 6:  35%|███▌      | 34/97 [44:24<1:34:13, 89.75s/it]
+Task 6:  34%|███▍      | 33/97 [42:34<1:26:31, 81.11s/it]Task 6:  35%|███▌      | 34/97 [44:24<1:34:13, 89.75s/it]Task 6:  36%|███▌      | 35/97 [46:15<1:39:21, 96.16s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
+Task 6:  37%|███▋      | 36/97 [47:45<1:35:46, 94.20s/it]Task 6:  38%|███▊      | 37/97 [49:34<1:38:28, 98.48s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
+Task 6:  39%|███▉      | 38/97 [51:07<1:35:23, 97.01s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
+Task 6:  40%|████      | 39/97 [52:43<1:33:26, 96.66s/it]Task 6:  41%|████      | 40/97 [54:32<1:35:16, 100.28s/it]No NPY files written; failed QC: calibration_ok
+Task 6:  42%|████▏     | 41/97 [56:13<1:33:55, 100.64s/it]Task 6:  43%|████▎     | 42/97 [58:09<1:36:22, 105.14s/it]
+[Task 6] Error processing 24160_T3_MM_10112022_acc_gyr.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.
+No NPY files written; failed QC: calibration_ok
+Task 6:  45%|████▌     | 44/97 [59:40<1:08:31, 77.58s/it] Task 6:  46%|████▋     | 45/97 [1:01:08<1:09:38, 80.35s/it]No NPY files written; failed QC: calibration_ok
+Task 6:  47%|████▋     | 46/97 [1:02:46<1:12:03, 84.77s/it]No NPY files written; failed QC: calibration_ok
+Task 6:  48%|████▊     | 47/97 [1:03:52<1:06:24, 79.69s/it]No NPY files written; failed QC: calibration_ok
+Task 6:  49%|████▉     | 48/97 [1:05:24<1:08:00, 83.27s/it]No NPY files written; failed QC: calibration_ok
+Task 6:  51%|█████     | 49/97 [1:06:54<1:08:03, 85.07s/it]No NPY files written; failed QC: calibration_ok
+Task 6:  52%|█████▏    | 50/97 [1:08:27<1:08:22, 87.29s/it]Task 6:  53%|█████▎    | 51/97 [1:10:27<1:14:22, 97.01s/it]No NPY files written; failed QC: calibration_ok
+Task 6:  54%|█████▎    | 52/97 [1:11:59<1:11:34, 95.42s/it]No NPY files written; failed QC: calibration_ok
+Task 6:  55%|█████▍    | 53/97 [1:13:32<1:09:37, 94.95s/it]Task 6:  56%|█████▌    | 54/97 [1:15:24<1:11:37, 99.94s/it]Task 6:  57%|█████▋    | 55/97 [1:17:25<1:14:22, 106.24s/it]Task 6:  58%|█████▊    | 56/97 [1:19:15<1:13:19, 107.31s/it]Task 6:  59%|█████▉    | 57/97 [1:21:09<1:12:47, 109.19s/it]Task 6:  60%|█████▉    | 58/97 [1:23:04<1:12:09, 111.00s/it]Task 6:  61%|██████    | 59/97 [1:25:02<1:11:41, 113.19s/it]Task 6:  62%|██████▏   | 60/97 [1:26:10<1:01:27, 99.66s/it] Task 6:  63%|██████▎   | 61/97 [1:27:59<1:01:26, 102.40s/it]No NPY files written; failed QC: calibration_ok
+Task 6:  64%|██████▍   | 62/97 [1:28:58<52:02, 89.22s/it]   

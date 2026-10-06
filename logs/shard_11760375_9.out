@@ -21,4 +21,14 @@ Processing index 873 to 969 (97 files)
 Task 9:  35%|███▌      | 34/97 [41:32<1:31:07, 86.78s/it]No NPY files written; failed QC: calibration_ok
 Task 9:  36%|███▌      | 35/97 [42:59<1:29:37, 86.73s/it]No NPY files written; failed QC: calibration_ok
 Task 9:  37%|███▋      | 36/97 [44:27<1:28:47, 87.33s/it]No NPY files written; failed QC: calibration_ok
-Task 9:  38%|███▊      | 37/97 [45:53<1:26:56, 86.95s/it]
+Task 9:  38%|███▊      | 37/97 [45:53<1:26:56, 86.95s/it]Task 9:  39%|███▉      | 38/97 [47:23<1:26:10, 87.63s/it]No NPY files written; failed QC: calibration_ok
+Task 9:  40%|████      | 39/97 [48:44<1:22:52, 85.73s/it]No NPY files written; failed QC: calibration_ok, interrupts_ok
+Task 9:  41%|████      | 40/97 [50:23<1:25:14, 89.73s/it]No NPY files written; failed QC: calibration_ok
+Task 9:  42%|████▏     | 41/97 [51:46<1:21:49, 87.66s/it]No NPY files written; failed QC: calibration_ok
+Task 9:  43%|████▎     | 42/97 [53:08<1:18:56, 86.11s/it]No NPY files written; failed QC: calibration_ok
+Task 9:  44%|████▍     | 43/97 [53:47<1:04:39, 71.84s/it]Task 9:  45%|████▌     | 44/97 [55:29<1:11:24, 80.84s/it]Task 9:  46%|████▋     | 45/97 [57:12<1:15:50, 87.50s/it]Task 9:  47%|████▋     | 46/97 [58:52<1:17:43, 91.44s/it]Task 9:  48%|████▊     | 47/97 [1:00:17<1:14:32, 89.45s/it]Task 9:  49%|████▉     | 48/97 [1:01:58<1:15:49, 92.85s/it]Task 9:  51%|█████     | 49/97 [1:03:36<1:15:32, 94.43s/it]No NPY files written; failed QC: calibration_ok
+Task 9:  52%|█████▏    | 50/97 [1:05:02<1:12:03, 92.00s/it]No NPY files written; failed QC: calibration_ok
+Task 9:  53%|█████▎    | 51/97 [1:06:33<1:10:16, 91.65s/it]Task 9:  54%|█████▎    | 52/97 [1:08:20<1:12:16, 96.36s/it]Task 9:  55%|█████▍    | 53/97 [1:10:06<1:12:36, 99.01s/it]Task 9:  56%|█████▌    | 54/97 [1:11:47<1:11:32, 99.82s/it]Task 9:  57%|█████▋    | 55/97 [1:13:31<1:10:39, 100.93s/it]No NPY files written; failed QC: calibration_ok
+Task 9:  58%|█████▊    | 56/97 [1:15:01<1:06:39, 97.54s/it] No NPY files written; failed QC: calibration_ok
+Task 9:  59%|█████▉    | 57/97 [1:16:25<1:02:27, 93.68s/it]Task 9:  60%|█████▉    | 58/97 [1:18:04<1:01:53, 95.23s/it]Task 9:  61%|██████    | 59/97 [1:19:44<1:01:16, 96.75s/it]No NPY files written; failed QC: calibration_ok
+Task 9:  62%|██████▏   | 60/97 [1:21:07<57:06, 92.61s/it]  Task 9:  63%|██████▎   | 61/97 [1:22:43<56:04, 93.45s/it]Task 9:  64%|██████▍   | 62/97 [1:24:25<55:58, 95.96s/it]Task 9:  65%|██████▍   | 63/97 [1:26:03<54:43, 96.58s/it]Task 9:  66%|██████▌   | 64/97 [1:27:42<53:34, 97.41s/it]

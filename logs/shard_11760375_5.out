@@ -15,4 +15,13 @@ Processing index 485 to 581 (97 files)
 Task 5:  26%|██▌       | 25/97 [30:19<1:32:26, 77.03s/it]Task 5:  27%|██▋       | 26/97 [32:14<1:42:12, 86.37s/it]Task 5:  28%|██▊       | 27/97 [34:09<1:49:19, 93.70s/it]Task 5:  29%|██▉       | 28/97 [36:04<1:54:25, 99.51s/it]Task 5:  30%|██▉       | 29/97 [38:03<1:59:07, 105.12s/it]Task 5:  31%|███       | 30/97 [39:21<1:48:44, 97.38s/it] No NPY files written; failed QC: calibration_ok
 Task 5:  32%|███▏      | 31/97 [40:56<1:46:21, 96.68s/it]No NPY files written; failed QC: calibration_ok
 Task 5:  33%|███▎      | 32/97 [42:28<1:43:14, 95.29s/it]No NPY files written; failed QC: calibration_ok
-Task 5:  34%|███▍      | 33/97 [44:02<1:41:16, 94.94s/it]Task 5:  35%|███▌      | 34/97 [45:52<1:44:24, 99.44s/it]
+Task 5:  34%|███▍      | 33/97 [44:02<1:41:16, 94.94s/it]Task 5:  35%|███▌      | 34/97 [45:52<1:44:24, 99.44s/it]Task 5:  36%|███▌      | 35/97 [47:42<1:45:51, 102.44s/it]No NPY files written; failed QC: calibration_ok
+Task 5:  37%|███▋      | 36/97 [48:35<1:29:13, 87.75s/it] Task 5:  38%|███▊      | 37/97 [50:18<1:32:08, 92.14s/it]No NPY files written; failed QC: calibration_ok
+Task 5:  39%|███▉      | 38/97 [51:48<1:30:02, 91.57s/it]No NPY files written; failed QC: calibration_ok
+Task 5:  40%|████      | 39/97 [53:18<1:28:03, 91.10s/it]No NPY files written; failed QC: calibration_ok
+Task 5:  41%|████      | 40/97 [54:51<1:27:08, 91.73s/it]Task 5:  42%|████▏     | 41/97 [56:40<1:30:32, 97.01s/it]No NPY files written; failed QC: calibration_ok
+Task 5:  43%|████▎     | 42/97 [58:15<1:28:15, 96.28s/it]No NPY files written; failed QC: calibration_ok
+Task 5:  44%|████▍     | 43/97 [59:42<1:24:08, 93.49s/it]No NPY files written; failed QC: calibration_ok
+Task 5:  45%|████▌     | 44/97 [1:01:18<1:23:20, 94.34s/it]Task 5:  46%|████▋     | 45/97 [1:03:11<1:26:27, 99.76s/it]Task 5:  47%|████▋     | 46/97 [1:04:59<1:27:06, 102.47s/it]No NPY files written; failed QC: calibration_ok
+Task 5:  48%|████▊     | 47/97 [1:06:35<1:23:33, 100.27s/it]Task 5:  49%|████▉     | 48/97 [1:08:25<1:24:20, 103.27s/it]Task 5:  51%|█████     | 49/97 [1:10:16<1:24:35, 105.74s/it]No NPY files written; failed QC: calibration_ok
+Task 5:  52%|█████▏    | 50/97 [1:11:53<1:20:46, 103.11s/it]Task 5:  53%|█████▎    | 51/97 [1:13:50<1:22:04, 107.05s/it]Task 5:  54%|█████▎    | 52/97 [1:15:29<1:18:41, 104.93s/it]Task 5:  55%|█████▍    | 53/97 [1:17:17<1:17:32, 105.74s/it]Task 5:  56%|█████▌    | 54/97 [1:19:13<1:17:55, 108.74s/it]Task 5:  57%|█████▋    | 55/97 [1:21:06<1:17:02, 110.05s/it]Task 5:  58%|█████▊    | 56/97 [1:23:07<1:17:29, 113.41s/it]Task 5:  59%|█████▉    | 57/97 [1:25:02<1:15:55, 113.88s/it]Task 5:  60%|█████▉    | 58/97 [1:26:16<1:06:08, 101.76s/it]Task 5:  61%|██████    | 59/97 [1:28:06<1:06:02, 104.27s/it]

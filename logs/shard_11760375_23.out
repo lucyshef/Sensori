@@ -28,4 +28,17 @@ No NPY files written; failed QC: calibration_ok
 Task 23:  34%|███▍      | 33/97 [41:06<1:28:55, 83.36s/it]No NPY files written; failed QC: calibration_ok
 Task 23:  35%|███▌      | 34/97 [42:39<1:30:20, 86.04s/it]No NPY files written; failed QC: calibration_ok
 Task 23:  36%|███▌      | 35/97 [44:14<1:31:21, 88.41s/it]No NPY files written; failed QC: calibration_ok
-Task 23:  37%|███▋      | 36/97 [45:45<1:30:41, 89.20s/it]
+Task 23:  37%|███▋      | 36/97 [45:45<1:30:41, 89.20s/it]Task 23:  38%|███▊      | 37/97 [47:36<1:35:40, 95.67s/it]Task 23:  39%|███▉      | 38/97 [49:19<1:36:08, 97.77s/it]No NPY files written; failed QC: calibration_ok
+Task 23:  40%|████      | 39/97 [50:52<1:33:04, 96.28s/it]Task 23:  41%|████      | 40/97 [52:35<1:33:22, 98.29s/it]Task 23:  42%|████▏     | 41/97 [54:31<1:36:37, 103.53s/it]No NPY files written; failed QC: calibration_ok
+Task 23:  43%|████▎     | 42/97 [56:05<1:32:20, 100.74s/it]No NPY files written; failed QC: calibration_ok
+Task 23:  44%|████▍     | 43/97 [57:36<1:28:03, 97.85s/it] Task 23:  45%|████▌     | 44/97 [59:18<1:27:37, 99.20s/it]Task 23:  46%|████▋     | 45/97 [1:01:02<1:27:07, 100.52s/it]Task 23:  47%|████▋     | 46/97 [1:02:45<1:26:04, 101.26s/it]Task 23:  48%|████▊     | 47/97 [1:04:31<1:25:41, 102.83s/it]No NPY files written; failed QC: calibration_ok
+Task 23:  49%|████▉     | 48/97 [1:06:10<1:22:48, 101.39s/it]Task 23:  51%|█████     | 49/97 [1:07:58<1:22:48, 103.51s/it]Task 23:  52%|█████▏    | 50/97 [1:09:53<1:23:44, 106.90s/it]No NPY files written; failed QC: calibration_ok
+Task 23:  53%|█████▎    | 51/97 [1:11:29<1:19:33, 103.77s/it]No NPY files written; failed QC: calibration_ok
+Task 23:  54%|█████▎    | 52/97 [1:13:08<1:16:36, 102.15s/it]No NPY files written; failed QC: calibration_ok
+Task 23:  55%|█████▍    | 53/97 [1:14:46<1:14:04, 101.01s/it]Task 23:  56%|█████▌    | 54/97 [1:16:51<1:17:35, 108.26s/it]Task 23:  57%|█████▋    | 55/97 [1:18:41<1:16:13, 108.89s/it]No NPY files written; failed QC: calibration_ok
+Task 23:  58%|█████▊    | 56/97 [1:19:11<58:13, 85.21s/it]   No NPY files written; failed QC: calibration_ok
+Task 23:  59%|█████▉    | 57/97 [1:20:48<59:02, 88.57s/it]No NPY files written; failed QC: calibration_ok
+Task 23:  60%|█████▉    | 58/97 [1:22:26<59:29, 91.52s/it]No NPY files written; failed QC: calibration_ok
+Task 23:  61%|██████    | 59/97 [1:24:02<58:42, 92.69s/it]No NPY files written; failed QC: calibration_ok
+Task 23:  62%|██████▏   | 60/97 [1:25:33<56:48, 92.13s/it]No NPY files written; failed QC: calibration_ok
+Task 23:  63%|██████▎   | 61/97 [1:27:18<57:40, 96.13s/it]

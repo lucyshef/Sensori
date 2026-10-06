@@ -19,4 +19,24 @@ Processing index 1261 to 1357 (97 files)
 Task 13:  24%|██▎       | 23/97 [22:45<1:26:09, 69.86s/it]Task 13:  25%|██▍       | 24/97 [24:34<1:39:15, 81.58s/it]Task 13:  26%|██▌       | 25/97 [26:13<1:43:58, 86.64s/it]Task 13:  27%|██▋       | 26/97 [27:51<1:46:42, 90.17s/it]Task 13:  28%|██▊       | 27/97 [29:29<1:47:43, 92.34s/it]Task 13:  29%|██▉       | 28/97 [31:05<1:47:32, 93.52s/it]No NPY files written; failed QC: calibration_ok
 Task 13:  30%|██▉       | 29/97 [32:25<1:41:32, 89.59s/it]No NPY files written; failed QC: calibration_ok
 Task 13:  31%|███       | 30/97 [33:47<1:37:16, 87.11s/it]No NPY files written; failed QC: calibration_ok
-Task 13:  32%|███▏      | 31/97 [35:27<1:40:07, 91.02s/it]Task 13:  33%|███▎      | 32/97 [37:02<1:39:49, 92.15s/it]Task 13:  34%|███▍      | 33/97 [38:53<1:44:30, 97.97s/it]Task 13:  35%|███▌      | 34/97 [40:25<1:40:54, 96.11s/it]Task 13:  36%|███▌      | 35/97 [42:07<1:41:10, 97.91s/it]Task 13:  37%|███▋      | 36/97 [43:41<1:38:28, 96.86s/it]Task 13:  38%|███▊      | 37/97 [45:05<1:32:46, 92.78s/it]
+Task 13:  32%|███▏      | 31/97 [35:27<1:40:07, 91.02s/it]Task 13:  33%|███▎      | 32/97 [37:02<1:39:49, 92.15s/it]Task 13:  34%|███▍      | 33/97 [38:53<1:44:30, 97.97s/it]Task 13:  35%|███▌      | 34/97 [40:25<1:40:54, 96.11s/it]Task 13:  36%|███▌      | 35/97 [42:07<1:41:10, 97.91s/it]Task 13:  37%|███▋      | 36/97 [43:41<1:38:28, 96.86s/it]Task 13:  38%|███▊      | 37/97 [45:05<1:32:46, 92.78s/it]Task 13:  39%|███▉      | 38/97 [46:42<1:32:38, 94.21s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  40%|████      | 39/97 [48:06<1:28:11, 91.24s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  41%|████      | 40/97 [49:28<1:23:50, 88.26s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  42%|████▏     | 41/97 [50:55<1:22:00, 87.86s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  43%|████▎     | 42/97 [52:20<1:19:42, 86.95s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  44%|████▍     | 43/97 [53:48<1:18:47, 87.55s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  45%|████▌     | 44/97 [55:15<1:17:06, 87.28s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  46%|████▋     | 45/97 [56:37<1:14:20, 85.77s/it]
+[Task 13] Error processing 24558_T2_AX6_28092022_acc_gyr.parquet: Parquet must contain at least two samples
+No NPY files written; failed QC: calibration_ok
+Task 13:  48%|████▊     | 47/97 [58:03<55:00, 66.01s/it]  No NPY files written; failed QC: calibration_ok
+Task 13:  49%|████▉     | 48/97 [59:23<56:43, 69.45s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  51%|█████     | 49/97 [1:00:45<58:02, 72.56s/it]Task 13:  52%|█████▏    | 50/97 [1:02:19<1:01:33, 78.58s/it]Task 13:  53%|█████▎    | 51/97 [1:03:57<1:04:19, 83.91s/it]Task 13:  54%|█████▎    | 52/97 [1:05:26<1:04:07, 85.50s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  55%|█████▍    | 53/97 [1:06:50<1:02:17, 84.94s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  56%|█████▌    | 54/97 [1:08:13<1:00:34, 84.53s/it]Task 13:  57%|█████▋    | 55/97 [1:09:56<1:02:57, 89.95s/it]Task 13:  58%|█████▊    | 56/97 [1:11:36<1:03:27, 92.87s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  59%|█████▉    | 57/97 [1:13:11<1:02:23, 93.58s/it]Task 13:  60%|█████▉    | 58/97 [1:14:52<1:02:12, 95.72s/it]Task 13:  61%|██████    | 59/97 [1:16:29<1:00:44, 95.92s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  62%|██████▏   | 60/97 [1:17:54<57:16, 92.88s/it]  Task 13:  63%|██████▎   | 61/97 [1:19:05<51:43, 86.22s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  64%|██████▍   | 62/97 [1:20:26<49:22, 84.65s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  65%|██████▍   | 63/97 [1:21:47<47:19, 83.53s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  66%|██████▌   | 64/97 [1:23:10<45:56, 83.54s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  67%|██████▋   | 65/97 [1:24:38<45:07, 84.62s/it]Task 13:  68%|██████▊   | 66/97 [1:26:25<47:14, 91.43s/it]Task 13:  69%|██████▉   | 67/97 [1:28:10<47:42, 95.41s/it]
