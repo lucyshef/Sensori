@@ -2,7 +2,7 @@
 #SBATCH --job-name=sensori_shard
 #SBATCH --time=01:00:00          # ~100 files per task takes ~25 mins
 #SBATCH --cpus-per-task=2
-#SBATCH --mem=8G
+#SBATCH --mem=24G
 #SBATCH --mail-user=lmcheesman1@sheffield.ac.uk
 #SBATCH --mail-type=ALL
 #SBATCH --output=/users/acp25lmc/Sensori/logs/shard_%A_%a.out
