@@ -3,4 +3,16 @@ Total files found: 2426
 Processing index 485 to 581 (97 files)
 
 Task 5:   0%|          | 0/97 [00:00<?, ?it/s]Task 5:   7%|▋         | 7/97 [01:45<22:30, 15.01s/it]No NPY files written; failed QC: calibration_ok
-Task 5:   8%|▊         | 8/97 [03:23<43:10, 29.11s/it]Task 5:   9%|▉         | 9/97 [05:18<1:07:23, 45.95s/it]Task 5:  10%|█         | 10/97 [07:02<1:24:55, 58.57s/it]Task 5:  11%|█▏        | 11/97 [08:38<1:36:33, 67.37s/it]Task 5:  12%|█▏        | 12/97 [10:18<1:47:09, 75.65s/it]Task 5:  13%|█▎        | 13/97 [12:11<1:59:50, 85.60s/it]Task 5:  14%|█▍        | 14/97 [14:00<2:07:21, 92.07s/it]Task 5:  15%|█▌        | 15/97 [15:35<2:06:54, 92.86s/it]Task 5:  16%|█▋        | 16/97 [17:28<2:13:20, 98.78s/it]
+Task 5:   8%|▊         | 8/97 [03:23<43:10, 29.11s/it]Task 5:   9%|▉         | 9/97 [05:18<1:07:23, 45.95s/it]Task 5:  10%|█         | 10/97 [07:02<1:24:55, 58.57s/it]Task 5:  11%|█▏        | 11/97 [08:38<1:36:33, 67.37s/it]Task 5:  12%|█▏        | 12/97 [10:18<1:47:09, 75.65s/it]Task 5:  13%|█▎        | 13/97 [12:11<1:59:50, 85.60s/it]Task 5:  14%|█▍        | 14/97 [14:00<2:07:21, 92.07s/it]Task 5:  15%|█▌        | 15/97 [15:35<2:06:54, 92.86s/it]Task 5:  16%|█▋        | 16/97 [17:28<2:13:20, 98.78s/it]No NPY files written; failed QC: eligible_day_available
+Task 5:  18%|█▊        | 17/97 [19:02<2:09:49, 97.37s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
+Task 5:  19%|█▊        | 18/97 [20:37<2:07:17, 96.68s/it]No NPY files written; failed QC: calibration_ok
+Task 5:  20%|█▉        | 19/97 [22:11<2:04:22, 95.68s/it]No NPY files written; failed QC: calibration_ok
+Task 5:  21%|██        | 20/97 [23:44<2:01:43, 94.84s/it]No NPY files written; failed QC: calibration_ok
+Task 5:  22%|██▏       | 21/97 [25:17<1:59:44, 94.54s/it]No NPY files written; failed QC: calibration_ok
+Task 5:  23%|██▎       | 22/97 [26:51<1:57:54, 94.33s/it]No NPY files written; failed QC: calibration_ok
+Task 5:  24%|██▎       | 23/97 [28:27<1:56:42, 94.63s/it]
+[Task 5] Error processing 24094_T4_AX6_26012023_acc_gyr.parquet: Parquet must contain at least two samples
+Task 5:  26%|██▌       | 25/97 [30:19<1:32:26, 77.03s/it]Task 5:  27%|██▋       | 26/97 [32:14<1:42:12, 86.37s/it]Task 5:  28%|██▊       | 27/97 [34:09<1:49:19, 93.70s/it]Task 5:  29%|██▉       | 28/97 [36:04<1:54:25, 99.51s/it]Task 5:  30%|██▉       | 29/97 [38:03<1:59:07, 105.12s/it]Task 5:  31%|███       | 30/97 [39:21<1:48:44, 97.38s/it] No NPY files written; failed QC: calibration_ok
+Task 5:  32%|███▏      | 31/97 [40:56<1:46:21, 96.68s/it]No NPY files written; failed QC: calibration_ok
+Task 5:  33%|███▎      | 32/97 [42:28<1:43:14, 95.29s/it]No NPY files written; failed QC: calibration_ok
+Task 5:  34%|███▍      | 33/97 [44:02<1:41:16, 94.94s/it]Task 5:  35%|███▌      | 34/97 [45:52<1:44:24, 99.44s/it]

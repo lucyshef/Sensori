@@ -11,4 +11,17 @@ Processing index 1358 to 1454 (97 files)
 Task 14:  15%|█▌        | 15/97 [13:34<1:47:38, 78.77s/it]No NPY files written; failed QC: calibration_ok
 Task 14:  16%|█▋        | 16/97 [15:01<1:49:23, 81.03s/it]No NPY files written; failed QC: calibration_ok
 Task 14:  18%|█▊        | 17/97 [16:26<1:49:36, 82.20s/it]No NPY files written; failed QC: calibration_ok
-Task 14:  19%|█▊        | 18/97 [17:49<1:48:45, 82.60s/it]
+Task 14:  19%|█▊        | 18/97 [17:49<1:48:45, 82.60s/it]No NPY files written; failed QC: calibration_ok
+Task 14:  20%|█▉        | 19/97 [19:14<1:48:22, 83.37s/it]No NPY files written; failed QC: calibration_ok
+Task 14:  21%|██        | 20/97 [20:41<1:48:05, 84.23s/it]No NPY files written; failed QC: calibration_ok
+Task 14:  22%|██▏       | 21/97 [22:09<1:48:15, 85.47s/it]No NPY files written; failed QC: calibration_ok
+Task 14:  23%|██▎       | 22/97 [23:35<1:46:58, 85.58s/it]No NPY files written; failed QC: calibration_ok
+Task 14:  24%|██▎       | 23/97 [25:07<1:48:05, 87.64s/it]No NPY files written; failed QC: calibration_ok
+Task 14:  25%|██▍       | 24/97 [26:36<1:46:49, 87.80s/it]No NPY files written; failed QC: calibration_ok
+Task 14:  26%|██▌       | 25/97 [28:07<1:46:31, 88.78s/it]Task 14:  27%|██▋       | 26/97 [29:53<1:51:17, 94.05s/it]No NPY files written; failed QC: calibration_ok
+Task 14:  28%|██▊       | 27/97 [31:23<1:48:17, 92.82s/it]Task 14:  29%|██▉       | 28/97 [33:10<1:51:39, 97.09s/it]No NPY files written; failed QC: calibration_ok
+Task 14:  30%|██▉       | 29/97 [34:41<1:47:59, 95.29s/it]No NPY files written; failed QC: calibration_ok
+Task 14:  31%|███       | 30/97 [36:09<1:44:00, 93.14s/it]No NPY files written; failed QC: calibration_ok
+Task 14:  32%|███▏      | 31/97 [37:36<1:40:29, 91.35s/it]No NPY files written; failed QC: calibration_ok
+Task 14:  33%|███▎      | 32/97 [39:07<1:38:36, 91.02s/it]Task 14:  34%|███▍      | 33/97 [40:49<1:40:35, 94.30s/it]No NPY files written; failed QC: calibration_ok
+Task 14:  35%|███▌      | 34/97 [42:14<1:36:16, 91.70s/it]Task 14:  36%|███▌      | 35/97 [43:58<1:38:24, 95.23s/it]Task 14:  37%|███▋      | 36/97 [45:39<1:38:43, 97.10s/it]

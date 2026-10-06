@@ -13,4 +13,14 @@ Processing index 1843 to 1939 (97 files)
 Task 19:  16%|█▋        | 16/97 [13:50<1:42:57, 76.26s/it]No NPY files written; failed QC: calibration_ok
 Task 19:  18%|█▊        | 17/97 [15:09<1:43:04, 77.31s/it]No NPY files written; failed QC: calibration_ok
 Task 19:  19%|█▊        | 18/97 [16:28<1:42:11, 77.61s/it]No NPY files written; failed QC: calibration_ok
-Task 19:  20%|█▉        | 19/97 [17:48<1:41:51, 78.35s/it]
+Task 19:  20%|█▉        | 19/97 [17:48<1:41:51, 78.35s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  21%|██        | 20/97 [19:08<1:41:18, 78.94s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  22%|██▏       | 21/97 [20:29<1:40:38, 79.46s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  23%|██▎       | 22/97 [21:52<1:40:39, 80.52s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  24%|██▎       | 23/97 [23:16<1:40:33, 81.53s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  25%|██▍       | 24/97 [24:36<1:38:43, 81.14s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  26%|██▌       | 25/97 [25:56<1:36:54, 80.76s/it]Task 19:  27%|██▋       | 26/97 [26:45<1:24:23, 71.31s/it]Task 19:  28%|██▊       | 27/97 [28:21<1:31:40, 78.57s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  29%|██▉       | 28/97 [29:39<1:30:12, 78.45s/it]Task 19:  30%|██▉       | 29/97 [31:15<1:34:57, 83.78s/it]Task 19:  31%|███       | 30/97 [32:44<1:35:11, 85.25s/it]Task 19:  32%|███▏      | 31/97 [34:15<1:35:43, 87.03s/it]Task 19:  33%|███▎      | 32/97 [35:47<1:36:05, 88.69s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  34%|███▍      | 33/97 [37:07<1:31:31, 85.80s/it]Task 19:  35%|███▌      | 34/97 [38:40<1:32:38, 88.23s/it]Task 19:  36%|███▌      | 35/97 [39:59<1:28:15, 85.41s/it]Task 19:  37%|███▋      | 36/97 [41:31<1:28:39, 87.20s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  38%|███▊      | 37/97 [42:50<1:24:45, 84.76s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  39%|███▉      | 38/97 [44:09<1:21:39, 83.05s/it]Task 19:  40%|████      | 39/97 [45:48<1:24:54, 87.83s/it]

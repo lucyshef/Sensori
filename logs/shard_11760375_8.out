@@ -9,4 +9,15 @@ Processing index 776 to 872 (97 files)
 Task 8:  15%|█▌        | 15/97 [12:33<1:43:02, 75.39s/it]No NPY files written; failed QC: calibration_ok
 Task 8:  16%|█▋        | 16/97 [14:02<1:47:14, 79.44s/it]No NPY files written; failed QC: calibration_ok
 Task 8:  18%|█▊        | 17/97 [15:31<1:49:31, 82.15s/it]Task 8:  19%|█▊        | 18/97 [17:07<1:53:10, 85.95s/it]No NPY files written; failed QC: calibration_ok
-Task 8:  20%|█▉        | 19/97 [18:34<1:52:15, 86.36s/it]
+Task 8:  20%|█▉        | 19/97 [18:34<1:52:15, 86.36s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  21%|██        | 20/97 [19:55<1:48:55, 84.88s/it]Task 8:  22%|██▏       | 21/97 [21:30<1:51:01, 87.65s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  23%|██▎       | 22/97 [22:53<1:47:58, 86.38s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  24%|██▎       | 23/97 [24:21<1:47:13, 86.94s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  25%|██▍       | 24/97 [25:47<1:45:28, 86.69s/it]Task 8:  26%|██▌       | 25/97 [27:37<1:52:06, 93.43s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  27%|██▋       | 26/97 [28:58<1:46:12, 89.75s/it]Task 8:  28%|██▊       | 27/97 [30:31<1:45:58, 90.84s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  29%|██▉       | 28/97 [31:54<1:41:36, 88.36s/it]Task 8:  30%|██▉       | 29/97 [33:30<1:42:44, 90.65s/it]Task 8:  31%|███       | 30/97 [35:09<1:44:12, 93.33s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  32%|███▏      | 31/97 [36:33<1:39:19, 90.29s/it]No NPY files written; failed QC: eligible_day_available
+Task 8:  33%|███▎      | 32/97 [38:17<1:42:16, 94.42s/it]Task 8:  34%|███▍      | 33/97 [40:00<1:43:34, 97.11s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  35%|███▌      | 34/97 [41:28<1:39:01, 94.31s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  36%|███▌      | 35/97 [42:52<1:34:26, 91.40s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  37%|███▋      | 36/97 [44:23<1:32:45, 91.23s/it]Task 8:  38%|███▊      | 37/97 [45:24<1:22:04, 82.07s/it]

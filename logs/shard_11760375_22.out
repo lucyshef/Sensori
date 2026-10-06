@@ -9,4 +9,17 @@ Processing index 2134 to 2230 (97 files)
 Task 22:  10%|█         | 10/97 [08:35<1:45:46, 72.95s/it]Task 22:  11%|█▏        | 11/97 [10:29<2:00:15, 83.91s/it]No NPY files written; failed QC: calibration_ok
 Task 22:  12%|█▏        | 12/97 [12:09<2:04:57, 88.21s/it]No NPY files written; failed QC: calibration_ok
 Task 22:  13%|█▎        | 13/97 [13:51<2:09:01, 92.16s/it]Task 22:  14%|█▍        | 14/97 [15:49<2:17:44, 99.57s/it]No NPY files written; failed QC: calibration_ok
-Task 22:  15%|█▌        | 15/97 [17:27<2:15:18, 99.01s/it]
+Task 22:  15%|█▌        | 15/97 [17:27<2:15:18, 99.01s/it]No NPY files written; failed QC: calibration_ok
+Task 22:  16%|█▋        | 16/97 [19:06<2:13:53, 99.18s/it]No NPY files written; failed QC: calibration_ok
+Task 22:  18%|█▊        | 17/97 [20:46<2:12:38, 99.48s/it]No NPY files written; failed QC: calibration_ok
+Task 22:  19%|█▊        | 18/97 [22:27<2:11:22, 99.78s/it]No NPY files written; failed QC: calibration_ok
+Task 22:  20%|█▉        | 19/97 [23:30<1:55:42, 89.00s/it]No NPY files written; failed QC: calibration_ok
+Task 22:  21%|██        | 20/97 [25:10<1:58:11, 92.09s/it]No NPY files written; failed QC: calibration_ok
+Task 22:  22%|██▏       | 21/97 [26:50<1:59:32, 94.38s/it]Task 22:  23%|██▎       | 22/97 [28:42<2:04:43, 99.78s/it]No NPY files written; failed QC: calibration_ok
+Task 22:  24%|██▎       | 23/97 [30:22<2:03:16, 99.96s/it]No NPY files written; failed QC: calibration_ok, interrupts_ok
+Task 22:  25%|██▍       | 24/97 [31:20<1:46:21, 87.41s/it]No NPY files written; failed QC: calibration_ok
+Task 22:  26%|██▌       | 25/97 [33:00<1:49:13, 91.01s/it]No NPY files written; failed QC: calibration_ok
+Task 22:  27%|██▋       | 26/97 [34:40<1:51:00, 93.81s/it]Task 22:  28%|██▊       | 27/97 [36:29<1:54:42, 98.32s/it]No NPY files written; failed QC: calibration_ok
+Task 22:  29%|██▉       | 28/97 [38:08<1:53:08, 98.38s/it]No NPY files written; failed QC: calibration_ok
+Task 22:  30%|██▉       | 29/97 [39:50<1:52:51, 99.57s/it]Task 22:  31%|███       | 30/97 [41:41<1:55:11, 103.16s/it]No NPY files written; failed QC: calibration_ok
+Task 22:  32%|███▏      | 31/97 [43:19<1:51:45, 101.59s/it]Task 22:  33%|███▎      | 32/97 [45:16<1:54:55, 106.09s/it]

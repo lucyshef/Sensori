@@ -11,4 +11,12 @@ Processing index 1261 to 1357 (97 files)
 Task 13:  15%|█▌        | 15/97 [13:27<1:49:00, 79.76s/it]No NPY files written; failed QC: calibration_ok
 Task 13:  16%|█▋        | 16/97 [14:49<1:48:33, 80.41s/it]No NPY files written; failed QC: calibration_ok
 Task 13:  18%|█▊        | 17/97 [16:12<1:48:05, 81.06s/it]No NPY files written; failed QC: calibration_ok
-Task 13:  19%|█▊        | 18/97 [17:36<1:47:56, 81.98s/it]
+Task 13:  19%|█▊        | 18/97 [17:36<1:47:56, 81.98s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
+Task 13:  20%|█▉        | 19/97 [18:58<1:46:39, 82.04s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  21%|██        | 20/97 [19:29<1:25:44, 66.81s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  22%|██▏       | 21/97 [19:58<1:10:30, 55.67s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  23%|██▎       | 22/97 [21:22<1:20:00, 64.01s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
+Task 13:  24%|██▎       | 23/97 [22:45<1:26:09, 69.86s/it]Task 13:  25%|██▍       | 24/97 [24:34<1:39:15, 81.58s/it]Task 13:  26%|██▌       | 25/97 [26:13<1:43:58, 86.64s/it]Task 13:  27%|██▋       | 26/97 [27:51<1:46:42, 90.17s/it]Task 13:  28%|██▊       | 27/97 [29:29<1:47:43, 92.34s/it]Task 13:  29%|██▉       | 28/97 [31:05<1:47:32, 93.52s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  30%|██▉       | 29/97 [32:25<1:41:32, 89.59s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  31%|███       | 30/97 [33:47<1:37:16, 87.11s/it]No NPY files written; failed QC: calibration_ok
+Task 13:  32%|███▏      | 31/97 [35:27<1:40:07, 91.02s/it]Task 13:  33%|███▎      | 32/97 [37:02<1:39:49, 92.15s/it]Task 13:  34%|███▍      | 33/97 [38:53<1:44:30, 97.97s/it]Task 13:  35%|███▌      | 34/97 [40:25<1:40:54, 96.11s/it]Task 13:  36%|███▌      | 35/97 [42:07<1:41:10, 97.91s/it]Task 13:  37%|███▋      | 36/97 [43:41<1:38:28, 96.86s/it]Task 13:  38%|███▊      | 37/97 [45:05<1:32:46, 92.78s/it]

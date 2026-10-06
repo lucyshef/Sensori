@@ -14,4 +14,14 @@ Processing index 194 to 290 (97 files)
 Task 2:  18%|█▊        | 17/97 [13:27<1:22:12, 61.65s/it]No NPY files written; failed QC: calibration_ok
 Task 2:  19%|█▊        | 18/97 [14:52<1:30:10, 68.49s/it]No NPY files written; failed QC: calibration_ok
 Task 2:  20%|█▉        | 19/97 [16:20<1:36:20, 74.11s/it]No NPY files written; failed QC: calibration_ok
-Task 2:  21%|██        | 20/97 [17:44<1:38:59, 77.14s/it]
+Task 2:  21%|██        | 20/97 [17:44<1:38:59, 77.14s/it]No NPY files written; failed QC: calibration_ok
+Task 2:  22%|██▏       | 21/97 [19:12<1:41:55, 80.47s/it]Task 2:  23%|██▎       | 22/97 [20:48<1:46:14, 85.00s/it]Task 2:  24%|██▎       | 23/97 [22:29<1:50:37, 89.69s/it]No NPY files written; failed QC: calibration_ok
+Task 2:  25%|██▍       | 24/97 [23:55<1:47:48, 88.61s/it]No NPY files written; failed QC: calibration_ok
+Task 2:  26%|██▌       | 25/97 [25:19<1:44:55, 87.44s/it]No NPY files written; failed QC: calibration_ok
+Task 2:  27%|██▋       | 26/97 [26:43<1:42:15, 86.41s/it]Task 2:  28%|██▊       | 27/97 [28:18<1:43:31, 88.73s/it]No NPY files written; failed QC: calibration_ok
+Task 2:  29%|██▉       | 28/97 [29:41<1:40:11, 87.13s/it]No NPY files written; failed QC: calibration_ok
+Task 2:  30%|██▉       | 29/97 [30:47<1:31:33, 80.79s/it]Task 2:  31%|███       | 30/97 [32:36<1:39:49, 89.39s/it]No NPY files written; failed QC: calibration_ok
+Task 2:  32%|███▏      | 31/97 [34:03<1:37:26, 88.58s/it]No NPY files written; failed QC: calibration_ok
+Task 2:  33%|███▎      | 32/97 [35:27<1:34:23, 87.14s/it]No NPY files written; failed QC: calibration_ok
+Task 2:  34%|███▍      | 33/97 [36:49<1:31:14, 85.54s/it]Task 2:  35%|███▌      | 34/97 [38:23<1:32:37, 88.21s/it]No NPY files written; failed QC: calibration_ok
+Task 2:  36%|███▌      | 35/97 [39:45<1:29:17, 86.42s/it]Task 2:  37%|███▋      | 36/97 [41:19<1:30:03, 88.58s/it]Task 2:  38%|███▊      | 37/97 [42:54<1:30:29, 90.49s/it]Task 2:  39%|███▉      | 38/97 [44:33<1:31:31, 93.08s/it]Task 2:  40%|████      | 39/97 [46:08<1:30:38, 93.78s/it]
