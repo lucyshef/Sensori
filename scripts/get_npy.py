@@ -242,9 +242,8 @@ def load_csv_waveform(path: Path) -> pd.DataFrame:
     return data.loc[:, ['time', 'x', 'y', 'z']].set_index('time')
 
 def load_custom_parquet_waveform(path: Path) -> pd.DataFrame:
-    """Read and validate a custom waveform CSV without silently dropping rows."""
+    """Read and validate a custom waveform Parquet file without silently dropping rows."""
 
-    # og_cols = {'time_gyr', 'acc_x', 'acc_y', 'acc_z'}
     required = {'time', 'x', 'y', 'z'}
     data = pd.read_parquet(path, columns=['time_gyr', 'acc_x', 'acc_y', 'acc_z'])
     data = data.rename(
@@ -255,50 +254,46 @@ def load_custom_parquet_waveform(path: Path) -> pd.DataFrame:
             "acc_z": "z",
         }
     )
-    STANDARD_GRAVITY = 9.80665 # need to convert from M/s^2
+    STANDARD_GRAVITY = 9.80665  # Convert from m/s^2 to g
     data[["x", "y", "z"]] = data[["x", "y", "z"]] / STANDARD_GRAVITY
+
     missing = sorted(required.difference(data.columns))
     if missing:
-        raise ValueError(f'CSV is missing required columns: {", ".join(missing)}')
+        raise ValueError(f'Parquet is missing required columns: {", ".join(missing)}')
 
+    # 1. Correctly parse datetime depending on raw column dtype
     try:
-        data['time'] = pd.to_datetime(data['time'], errors='raise')
-        for column in ('x', 'y', 'z'):
-            data[column] = pd.to_numeric(data[column], errors='raise')
-    except (TypeError, ValueError) as exc:
-        raise ValueError(f'CSV contains invalid time or acceleration values: {exc}') from exc
+        if pd.api.types.is_numeric_dtype(data['time']):
+            data['time'] = pd.to_datetime(data['time'], unit='s', errors='raise')
+        else:
+            data['time'] = pd.to_datetime(data['time'], errors='raise')
 
-    # datetime conversion (NOT super convinced this is correct but lets see)
-    try:
-        # Convert Unix seconds float (e.g. 1.644538e+09) to datetime64[ns]
-        data['time'] = pd.to_datetime(data['time'], unit='s', errors='raise')
         for column in ('x', 'y', 'z'):
             data[column] = pd.to_numeric(data[column], errors='raise')
     except (TypeError, ValueError) as exc:
         raise ValueError(f'Parquet contains invalid time or acceleration values: {exc}') from exc
 
-    # handle for wonky timestamps
-    data = data.sort_values('time')
+    # 2. Sort and reset index so positional slicing works properly
+    data = data.sort_values('time').reset_index(drop=True)
 
-    # Trim leading and trailing rows where acceleration columns are NaN
+    # 3. Trim leading and trailing rows where acceleration columns are NaN
     valid_mask = data[['x', 'y', 'z']].notna().all(axis=1)
     if valid_mask.any():
-        first_idx = valid_mask.idxmax()
-        last_idx = valid_mask[::-1].idxmax()
-        data = data.loc[first_idx:last_idx].copy()
+        first_idx = int(valid_mask.idxmax())
+        last_idx = int(valid_mask[::-1].idxmax())
+        data = data.iloc[first_idx : last_idx + 1].copy()
 
-    # handle for wonky timestamps
-    data = data.sort_values('time')
+    # Drop duplicates by timestamp
     data = data.drop_duplicates(subset=['time'], keep='first')
 
     if len(data) < 2:
-        raise ValueError('CSV must contain at least two samples')
+        raise ValueError('Parquet must contain at least two samples')
     if data['time'].isna().any() or data[['x', 'y', 'z']].isna().any().any():
-        raise ValueError('input CSV must not contain missing time or acceleration values')
+        raise ValueError('input Parquet must not contain missing time or acceleration values')
     if not np.isfinite(data[['x', 'y', 'z']].to_numpy()).all():
-        raise ValueError('input CSV must contain only finite acceleration values')
+        raise ValueError('input Parquet must contain only finite acceleration values')
     if data['time'].duplicated().any() or not data['time'].is_monotonic_increasing:
-        raise ValueError('input CSV timestamps must be unique and strictly increasing')
+        raise ValueError('input Parquet timestamps must be unique and strictly increasing')
 
     return data.loc[:, ['time', 'x', 'y', 'z']].set_index('time')
 
