@@ -268,11 +268,11 @@ def load_custom_parquet_waveform(path: Path) -> pd.DataFrame:
     except (TypeError, ValueError) as exc:
         raise ValueError(f'CSV contains invalid time or acceleration values: {exc}') from exc
 
-    # Trim leading and trailing NaN rows across time and acceleration columns
-    valid_rows = data.dropna(how='all', subset=['time', 'x', 'y', 'z'])
-    if not valid_rows.empty:
-        first_idx = valid_rows.index[0]
-        last_idx = valid_rows.index[-1]
+    # Trim leading and trailing rows where acceleration columns are NaN
+    valid_mask = data[['x', 'y', 'z']].notna().all(axis=1)
+    if valid_mask.any():
+        first_idx = valid_mask.idxmax()
+        last_idx = valid_mask[::-1].idxmax()
         data = data.loc[first_idx:last_idx].copy()
 
     if len(data) < 2:
