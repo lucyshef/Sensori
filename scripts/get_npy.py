@@ -246,10 +246,10 @@ def load_custom_parquet_waveform(path: Path) -> pd.DataFrame:
 
     # og_cols = {'time_gyr', 'acc_x', 'acc_y', 'acc_z'}
     required = {'time', 'x', 'y', 'z'}
-    data = pd.read_parquet(path, columns=['time_acc', 'acc_x', 'acc_y', 'acc_z'])
+    data = pd.read_parquet(path, columns=['time_gyr', 'acc_x', 'acc_y', 'acc_z'])
     data = data.rename(
         columns={
-            "time_acc": "time",
+            "time_gyr": "time",
             "acc_x": "x",
             "acc_y": "y",
             "acc_z": "z",
@@ -274,6 +274,9 @@ def load_custom_parquet_waveform(path: Path) -> pd.DataFrame:
         first_idx = valid_mask.idxmax()
         last_idx = valid_mask[::-1].idxmax()
         data = data.loc[first_idx:last_idx].copy()
+
+    # handle for wonky timestamps
+    data = data.sort_values('time_gyr')
 
     if len(data) < 2:
         raise ValueError('CSV must contain at least two samples')
