@@ -1,0 +1,6 @@
+--- Task 8/25 ---
+Total files found: 2426
+Processing index 679 to 775 (97 files)
+
+Task 7:   0%|          | 0/97 [00:00<?, ?it/s]/var/spool/slurmd/slurmd.spool/job11760186/slurm_script: line 17: 1825965 Killed                  python -u shard_get_npy.py
+slurmstepd: error: Detected 1 oom_kill event in StepId=11760186.batch. Some of the step tasks have been OOM Killed.
