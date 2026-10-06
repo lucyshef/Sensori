@@ -1,0 +1,10 @@
+--- Task 8/25 ---
+Total files found: 2426
+Processing index 679 to 775 (97 files)
+
+Task 7:   0%|          | 0/97 [00:00<?, ?it/s]Task 7:   1%|          | 1/97 [02:01<3:13:45, 121.10s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
+Task 7:   2%|▏         | 2/97 [03:35<2:46:31, 105.18s/it]No NPY files written; failed QC: calibration_ok
+Task 7:   3%|▎         | 3/97 [05:14<2:40:32, 102.47s/it]No NPY files written; failed QC: calibration_ok
+Task 7:   4%|▍         | 4/97 [06:53<2:36:43, 101.11s/it]Task 7:   5%|▌         | 5/97 [08:43<2:39:52, 104.26s/it]
+[Task 7] Error processing 24198_T3_AX6_03102022_acc_gyr.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.
+slurmstepd: error: *** JOB 11760328 ON node043 CANCELLED AT 2026-10-06T14:58:12 ***

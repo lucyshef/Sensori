@@ -1,0 +1,8 @@
+--- Task 20/25 ---
+Total files found: 2426
+Processing index 1843 to 1939 (97 files)
+
+Task 19:   0%|          | 0/97 [00:00<?, ?it/s]Task 19:   1%|          | 1/97 [01:57<3:07:48, 117.38s/it]Task 19:   2%|▏         | 2/97 [03:44<2:56:06, 111.23s/it]No NPY files written; failed QC: calibration_ok
+Task 19:   3%|▎         | 3/97 [04:27<2:05:29, 80.10s/it] Task 19:   4%|▍         | 4/97 [06:12<2:19:19, 89.88s/it]No NPY files written; failed QC: calibration_ok
+Task 19:   5%|▌         | 5/97 [07:45<2:19:49, 91.19s/it]No NPY files written; failed QC: calibration_ok
+Task 19:   6%|▌         | 6/97 [09:16<2:18:14, 91.15s/it]slurmstepd: error: *** JOB 11760340 ON node101 CANCELLED AT 2026-10-06T14:58:12 ***

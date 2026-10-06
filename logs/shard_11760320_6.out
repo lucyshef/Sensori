@@ -1,0 +1,6 @@
+--- Task 7/25 ---
+Total files found: 2426
+Processing index 582 to 678 (97 files)
+
+Task 6:   0%|          | 0/97 [00:00<?, ?it/s]Task 6:   1%|          | 1/97 [01:42<2:44:10, 102.61s/it]Task 6:   2%|▏         | 2/97 [03:08<2:26:31, 92.54s/it] No NPY files written; failed QC: calibration_ok, eligible_day_available
+Task 6:   3%|▎         | 3/97 [03:15<1:23:45, 53.46s/it]Task 6:   4%|▍         | 4/97 [04:54<1:50:41, 71.42s/it]Task 6:   5%|▌         | 5/97 [06:29<2:02:55, 80.17s/it]Task 6:   6%|▌         | 6/97 [08:06<2:10:02, 85.74s/it]Task 6:   7%|▋         | 7/97 [09:27<2:06:10, 84.12s/it]slurmstepd: error: *** JOB 11760327 ON node036 CANCELLED AT 2026-10-06T14:58:12 ***

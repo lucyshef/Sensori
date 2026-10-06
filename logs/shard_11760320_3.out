@@ -1,0 +1,9 @@
+--- Task 4/25 ---
+Total files found: 2426
+Processing index 291 to 387 (97 files)
+
+Task 3:   0%|          | 0/97 [00:00<?, ?it/s]No NPY files written; failed QC: calibration_ok
+Task 3:   1%|          | 1/97 [01:25<2:16:29, 85.31s/it]Task 3:   2%|▏         | 2/97 [03:05<2:29:14, 94.26s/it]No NPY files written; failed QC: calibration_ok
+Task 3:   3%|▎         | 3/97 [04:05<2:03:15, 78.68s/it]Task 3:   4%|▍         | 4/97 [05:30<2:05:28, 80.96s/it]Task 3:   5%|▌         | 5/97 [07:10<2:14:45, 87.89s/it]
+[Task 3] Error processing 24017_T4_MM_06122022_acc_gyr.parquet: input Parquet must not contain missing time or acceleration values
+Task 3:   6%|▌         | 6/97 [07:48<1:47:25, 70.83s/it]Task 3:   7%|▋         | 7/97 [09:28<2:00:43, 80.48s/it]slurmstepd: error: *** JOB 11760324 ON node075 CANCELLED AT 2026-10-06T14:58:12 ***

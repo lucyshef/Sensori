@@ -1,0 +1,10 @@
+--- Task 25/25 ---
+Total files found: 2426
+Processing index 2328 to 2425 (98 files)
+
+Task 24:   0%|          | 0/98 [00:00<?, ?it/s]No NPY files written; failed QC: calibration_ok
+Task 24:   1%|          | 1/98 [01:23<2:15:17, 83.69s/it]Task 24:   2%|▏         | 2/98 [02:54<2:20:24, 87.76s/it]No NPY files written; failed QC: calibration_ok
+Task 24:   3%|▎         | 3/98 [04:15<2:14:00, 84.64s/it]No NPY files written; failed QC: calibration_ok
+Task 24:   4%|▍         | 4/98 [05:35<2:09:36, 82.72s/it]No NPY files written; failed QC: calibration_ok
+Task 24:   5%|▌         | 5/98 [06:54<2:06:20, 81.51s/it]Task 24:   6%|▌         | 6/98 [08:26<2:10:46, 85.29s/it]No NPY files written; failed QC: calibration_ok
+Task 24:   7%|▋         | 7/98 [09:46<2:06:17, 83.27s/it]slurmstepd: error: *** JOB 11760320 ON node109 CANCELLED AT 2026-10-06T14:58:12 ***

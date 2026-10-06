@@ -1,0 +1,8 @@
+--- Task 1/25 ---
+Total files found: 2426
+Processing index 0 to 96 (97 files)
+
+Task 0:   0%|          | 0/97 [00:00<?, ?it/s]Task 0:   1%|          | 1/97 [01:40<2:41:23, 100.87s/it]No NPY files written; failed QC: calibration_ok
+Task 0:   2%|▏         | 2/97 [03:08<2:27:49, 93.37s/it] No NPY files written; failed QC: calibration_ok
+Task 0:   3%|▎         | 3/97 [04:34<2:20:25, 89.63s/it]No NPY files written; failed QC: calibration_ok
+Task 0:   4%|▍         | 4/97 [05:59<2:16:03, 87.78s/it]Task 0:   5%|▌         | 5/97 [07:35<2:19:28, 90.96s/it]Task 0:   6%|▌         | 6/97 [09:13<2:21:30, 93.31s/it]slurmstepd: error: *** JOB 11760321 ON node058 CANCELLED AT 2026-10-06T14:58:12 ***

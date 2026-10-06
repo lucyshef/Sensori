@@ -1,0 +1,6 @@
+--- Task 23/25 ---
+Total files found: 2426
+Processing index 2134 to 2230 (97 files)
+
+Task 22:   0%|          | 0/97 [00:00<?, ?it/s]Task 22:   1%|          | 1/97 [01:56<3:05:55, 116.20s/it]No NPY files written; failed QC: calibration_ok
+Task 22:   2%|▏         | 2/97 [03:23<2:37:25, 99.43s/it] Task 22:   3%|▎         | 3/97 [05:19<2:47:15, 106.76s/it]Task 22:   4%|▍         | 4/97 [07:00<2:41:58, 104.50s/it]Task 22:   5%|▌         | 5/97 [08:47<2:41:50, 105.55s/it]slurmstepd: error: *** JOB 11760343 ON node101 CANCELLED AT 2026-10-06T14:58:12 ***
