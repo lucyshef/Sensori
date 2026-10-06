@@ -246,10 +246,10 @@ def load_custom_parquet_waveform(path: Path) -> pd.DataFrame:
 
     # og_cols = {'time_gyr', 'acc_x', 'acc_y', 'acc_z'}
     required = {'time', 'x', 'y', 'z'}
-    data = pd.read_parquet(path, columns=['time_gyr', 'acc_x', 'acc_y', 'acc_z'])
+    data = pd.read_parquet(path, columns=['time_acc', 'acc_x', 'acc_y', 'acc_z'])
     data = data.rename(
         columns={
-            "time_gyr": "time",
+            "time_acc": "time",
             "acc_x": "x",
             "acc_y": "y",
             "acc_z": "z",
