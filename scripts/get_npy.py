@@ -276,7 +276,7 @@ def load_custom_parquet_waveform(path: Path) -> pd.DataFrame:
         data = data.loc[first_idx:last_idx].copy()
 
     # handle for wonky timestamps
-    data = data.sort_values('time_gyr')
+    data = data.sort_values('time')
 
     if len(data) < 2:
         raise ValueError('CSV must contain at least two samples')
