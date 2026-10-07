@@ -31,4 +31,17 @@ Processing index 291 to 387 (97 files)
 Task 3:  60%|█████▉    | 58/97 [1:23:38<59:38, 91.75s/it]  /users/acp25lmc/.local/lib/python3.13/site-packages/actipy/processing.py:361: UserWarning: Skipping calibration: Insufficient stationary samples: 4 < 50
   warnings.warn(f"Skipping calibration: Insufficient stationary samples: {len(xyz)} < {calib_min_samples}")
 No NPY files written; failed QC: calibration_ok, eligible_day_available
-Task 3:  61%|██████    | 59/97 [1:23:39<40:42, 64.27s/it]Task 3:  62%|██████▏   | 60/97 [1:25:29<48:05, 78.00s/it]Task 3:  63%|██████▎   | 61/97 [1:26:52<47:42, 79.51s/it]
+Task 3:  61%|██████    | 59/97 [1:23:39<40:42, 64.27s/it]Task 3:  62%|██████▏   | 60/97 [1:25:29<48:05, 78.00s/it]Task 3:  63%|██████▎   | 61/97 [1:26:52<47:42, 79.51s/it]Task 3:  64%|██████▍   | 62/97 [1:28:44<52:02, 89.22s/it]Task 3:  65%|██████▍   | 63/97 [1:30:38<54:46, 96.67s/it]Task 3:  66%|██████▌   | 64/97 [1:32:27<55:13, 100.40s/it]Task 3:  67%|██████▋   | 65/97 [1:34:14<54:39, 102.48s/it]Task 3:  68%|██████▊   | 66/97 [1:35:44<50:59, 98.68s/it] Task 3:  69%|██████▉   | 67/97 [1:37:35<51:15, 102.51s/it]No NPY files written; failed QC: eligible_day_available
+Task 3:  70%|███████   | 68/97 [1:38:49<45:26, 94.02s/it] Task 3:  71%|███████   | 69/97 [1:40:41<46:17, 99.18s/it]Task 3:  72%|███████▏  | 70/97 [1:42:30<45:58, 102.15s/it]No NPY files written; failed QC: calibration_ok
+Task 3:  73%|███████▎  | 71/97 [1:44:03<43:03, 99.37s/it] No NPY files written; failed QC: calibration_ok
+Task 3:  74%|███████▍  | 72/97 [1:45:40<41:09, 98.78s/it]No NPY files written; failed QC: calibration_ok
+Task 3:  75%|███████▌  | 73/97 [1:47:13<38:47, 96.98s/it]No NPY files written; failed QC: calibration_ok
+Task 3:  76%|███████▋  | 74/97 [1:48:52<37:27, 97.72s/it]Task 3:  77%|███████▋  | 75/97 [1:50:45<37:29, 102.26s/it]Task 3:  78%|███████▊  | 76/97 [1:52:34<36:31, 104.37s/it]No NPY files written; failed QC: calibration_ok
+Task 3:  79%|███████▉  | 77/97 [1:54:09<33:45, 101.29s/it]Task 3:  80%|████████  | 78/97 [1:55:52<32:14, 101.81s/it]Task 3:  81%|████████▏ | 79/97 [1:57:26<29:53, 99.65s/it] Task 3:  82%|████████▏ | 80/97 [1:59:15<28:58, 102.29s/it]No NPY files written; failed QC: eligible_day_available
+Task 3:  84%|████████▎ | 81/97 [2:01:09<28:15, 105.98s/it]Task 3:  85%|████████▍ | 82/97 [2:02:57<26:36, 106.40s/it]Task 3:  86%|████████▌ | 83/97 [2:04:46<25:01, 107.25s/it]Task 3:  87%|████████▋ | 84/97 [2:06:31<23:07, 106.76s/it]Task 3:  88%|████████▊ | 85/97 [2:08:24<21:42, 108.52s/it]Task 3:  89%|████████▊ | 86/97 [2:10:16<20:05, 109.61s/it]Task 3:  90%|████████▉ | 87/97 [2:11:53<17:38, 105.85s/it]Task 3:  91%|█████████ | 88/97 [2:13:50<16:21, 109.07s/it]Task 3:  92%|█████████▏| 89/97 [2:15:47<14:52, 111.59s/it]Task 3:  93%|█████████▎| 90/97 [2:17:27<12:36, 108.05s/it]No NPY files written; failed QC: calibration_ok
+Task 3:  94%|█████████▍| 91/97 [2:19:05<10:29, 104.95s/it]Task 3:  95%|█████████▍| 92/97 [2:20:41<08:31, 102.36s/it]Task 3:  96%|█████████▌| 93/97 [2:22:18<06:43, 100.83s/it]Task 3:  97%|█████████▋| 94/97 [2:24:11<05:12, 104.28s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
+Task 3:  98%|█████████▊| 95/97 [2:25:35<03:16, 98.31s/it] Task 3:  99%|█████████▉| 96/97 [2:27:20<01:40, 100.37s/it]No NPY files written; failed QC: calibration_ok
+Task 3: 100%|██████████| 97/97 [2:28:58<00:00, 99.42s/it] Task 3: 100%|██████████| 97/97 [2:28:58<00:00, 92.14s/it]
+
+--- Task 3 Finished ---
+Eligible: 59 | Ineligible (Failed QC): 37 | Errors: 1

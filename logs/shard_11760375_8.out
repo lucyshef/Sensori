@@ -35,4 +35,17 @@ Processing index 776 to 872 (97 files)
 Task 8:  64%|██████▍   | 62/97 [1:22:14<50:00, 85.73s/it]No NPY files written; failed QC: calibration_ok
 Task 8:  65%|██████▍   | 63/97 [1:23:28<46:41, 82.39s/it]No NPY files written; failed QC: calibration_ok
 Task 8:  66%|██████▌   | 64/97 [1:24:57<46:18, 84.18s/it]No NPY files written; failed QC: eligible_day_available
-Task 8:  67%|██████▋   | 65/97 [1:26:36<47:17, 88.69s/it]Task 8:  68%|██████▊   | 66/97 [1:27:29<40:22, 78.15s/it]
+Task 8:  67%|██████▋   | 65/97 [1:26:36<47:17, 88.69s/it]Task 8:  68%|██████▊   | 66/97 [1:27:29<40:22, 78.15s/it]Task 8:  69%|██████▉   | 67/97 [1:29:11<42:35, 85.19s/it]Task 8:  70%|███████   | 68/97 [1:30:56<43:59, 91.01s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  71%|███████   | 69/97 [1:32:19<41:28, 88.87s/it]Task 8:  72%|███████▏  | 70/97 [1:33:59<41:29, 92.21s/it]Task 8:  73%|███████▎  | 71/97 [1:35:38<40:48, 94.16s/it]Task 8:  74%|███████▍  | 72/97 [1:37:23<40:37, 97.51s/it]Task 8:  75%|███████▌  | 73/97 [1:39:04<39:20, 98.37s/it]Task 8:  76%|███████▋  | 74/97 [1:40:51<38:44, 101.05s/it]Task 8:  77%|███████▋  | 75/97 [1:42:27<36:29, 99.53s/it] Task 8:  78%|███████▊  | 76/97 [1:43:14<29:17, 83.67s/it]Task 8:  79%|███████▉  | 77/97 [1:44:53<29:24, 88.21s/it]Task 8:  80%|████████  | 78/97 [1:46:25<28:19, 89.46s/it]Task 8:  81%|████████▏ | 79/97 [1:48:03<27:37, 92.06s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  82%|████████▏ | 80/97 [1:49:29<25:33, 90.19s/it]Task 8:  84%|████████▎ | 81/97 [1:51:17<25:29, 95.56s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  85%|████████▍ | 82/97 [1:52:45<23:19, 93.31s/it]Task 8:  86%|████████▌ | 83/97 [1:54:24<22:10, 95.06s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
+Task 8:  87%|████████▋ | 84/97 [1:55:45<19:40, 90.78s/it]Task 8:  88%|████████▊ | 85/97 [1:57:25<18:43, 93.62s/it]Task 8:  89%|████████▊ | 86/97 [1:59:04<17:27, 95.25s/it]Task 8:  90%|████████▉ | 87/97 [2:00:41<15:55, 95.57s/it]Task 8:  91%|█████████ | 88/97 [2:02:18<14:24, 96.10s/it]Task 8:  92%|█████████▏| 89/97 [2:03:56<12:53, 96.74s/it]Task 8:  93%|█████████▎| 90/97 [2:05:35<11:21, 97.35s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  94%|█████████▍| 91/97 [2:07:01<09:24, 94.04s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  95%|█████████▍| 92/97 [2:08:24<07:33, 90.68s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  96%|█████████▌| 93/97 [2:09:49<05:56, 89.06s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  97%|█████████▋| 94/97 [2:11:15<04:24, 88.13s/it]No NPY files written; failed QC: calibration_ok
+Task 8:  98%|█████████▊| 95/97 [2:12:41<02:54, 87.24s/it]Task 8:  99%|█████████▉| 96/97 [2:14:18<01:30, 90.39s/it]No NPY files written; failed QC: calibration_ok
+Task 8: 100%|██████████| 97/97 [2:15:12<00:00, 79.31s/it]Task 8: 100%|██████████| 97/97 [2:15:12<00:00, 83.63s/it]
+
+--- Task 8 Finished ---
+Eligible: 48 | Ineligible (Failed QC): 49 | Errors: 0

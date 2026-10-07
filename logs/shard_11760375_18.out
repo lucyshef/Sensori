@@ -51,4 +51,25 @@ Processing index 1746 to 1842 (97 files)
 Task 18:  71%|███████   | 69/97 [1:24:51<38:44, 83.01s/it]No NPY files written; failed QC: calibration_ok
 Task 18:  72%|███████▏  | 70/97 [1:26:11<36:54, 82.02s/it]No NPY files written; failed QC: calibration_ok, interrupts_ok
 Task 18:  73%|███████▎  | 71/97 [1:27:31<35:15, 81.37s/it]No NPY files written; failed QC: calibration_ok
-Task 18:  74%|███████▍  | 72/97 [1:28:50<33:37, 80.69s/it]
+Task 18:  74%|███████▍  | 72/97 [1:28:50<33:37, 80.69s/it]Task 18:  75%|███████▌  | 73/97 [1:30:24<33:54, 84.78s/it]No NPY files written; failed QC: calibration_ok
+Task 18:  76%|███████▋  | 74/97 [1:31:43<31:49, 83.00s/it]No NPY files written; failed QC: calibration_ok
+Task 18:  77%|███████▋  | 75/97 [1:33:00<29:50, 81.39s/it]No NPY files written; failed QC: calibration_ok
+Task 18:  78%|███████▊  | 76/97 [1:34:18<28:04, 80.20s/it]No NPY files written; failed QC: calibration_ok
+Task 18:  79%|███████▉  | 77/97 [1:35:22<25:06, 75.34s/it]No NPY files written; failed QC: calibration_ok
+Task 18:  80%|████████  | 78/97 [1:36:40<24:09, 76.27s/it]No NPY files written; failed QC: calibration_ok
+Task 18:  81%|████████▏ | 79/97 [1:38:00<23:09, 77.20s/it]Task 18:  82%|████████▏ | 80/97 [1:39:30<22:57, 81.02s/it]No NPY files written; failed QC: calibration_ok
+Task 18:  84%|████████▎ | 81/97 [1:40:47<21:16, 79.80s/it]Task 18:  85%|████████▍ | 82/97 [1:42:15<20:37, 82.50s/it]Task 18:  86%|████████▌ | 83/97 [1:42:43<15:24, 66.01s/it]No NPY files written; failed QC: calibration_ok
+Task 18:  87%|████████▋ | 84/97 [1:44:02<15:10, 70.03s/it]Task 18:  88%|████████▊ | 85/97 [1:45:34<15:18, 76.54s/it]No NPY files written; failed QC: calibration_ok
+Task 18:  89%|████████▊ | 86/97 [1:46:55<14:15, 77.73s/it]No NPY files written; failed QC: calibration_ok
+Task 18:  90%|████████▉ | 87/97 [1:48:12<12:57, 77.79s/it]No NPY files written; failed QC: calibration_ok
+Task 18:  91%|█████████ | 88/97 [1:49:31<11:41, 77.90s/it]No NPY files written; failed QC: calibration_ok
+Task 18:  92%|█████████▏| 89/97 [1:50:48<10:22, 77.81s/it]No NPY files written; failed QC: calibration_ok
+Task 18:  93%|█████████▎| 90/97 [1:52:08<09:08, 78.34s/it]No NPY files written; failed QC: calibration_ok
+Task 18:  94%|█████████▍| 91/97 [1:53:26<07:49, 78.33s/it]No NPY files written; failed QC: calibration_ok
+Task 18:  95%|█████████▍| 92/97 [1:54:48<06:36, 79.28s/it]No NPY files written; failed QC: calibration_ok
+Task 18:  96%|█████████▌| 93/97 [1:56:03<05:12, 78.24s/it]No NPY files written; failed QC: calibration_ok
+Task 18:  97%|█████████▋| 94/97 [1:57:22<03:55, 78.40s/it]No NPY files written; failed QC: calibration_ok
+Task 18:  98%|█████████▊| 95/97 [1:58:43<02:38, 79.05s/it]Task 18:  99%|█████████▉| 96/97 [2:00:12<01:22, 82.20s/it]Task 18: 100%|██████████| 97/97 [2:01:43<00:00, 84.80s/it]Task 18: 100%|██████████| 97/97 [2:01:43<00:00, 75.30s/it]
+
+--- Task 18 Finished ---
+Eligible: 25 | Ineligible (Failed QC): 72 | Errors: 0

@@ -17,4 +17,20 @@ Processing index 388 to 484 (97 files)
 Task 4:  49%|████▉     | 48/97 [1:10:37<1:08:33, 83.94s/it]Task 4:  51%|█████     | 49/97 [1:12:21<1:11:52, 89.85s/it]Task 4:  52%|█████▏    | 50/97 [1:14:08<1:14:33, 95.17s/it]Task 4:  53%|█████▎    | 51/97 [1:15:51<1:14:40, 97.41s/it]Task 4:  54%|█████▎    | 52/97 [1:17:45<1:16:48, 102.40s/it]Task 4:  55%|█████▍    | 53/97 [1:19:34<1:16:31, 104.35s/it]Task 4:  56%|█████▌    | 54/97 [1:20:12<1:00:29, 84.40s/it] Task 4:  57%|█████▋    | 55/97 [1:20:46<48:36, 69.43s/it]  
 [Task 4] Error processing 24069_T5_MM_25072023_acc_gyr.parquet: Parquet contains invalid time or acceleration values: cannot convert input with unit 's'
 Task 4:  58%|█████▊    | 56/97 [1:21:10<38:10, 55.86s/it]Task 4:  59%|█████▉    | 57/97 [1:22:50<46:02, 69.07s/it]Task 4:  60%|█████▉    | 58/97 [1:24:37<52:16, 80.42s/it]Task 4:  61%|██████    | 59/97 [1:26:27<56:30, 89.22s/it]No NPY files written; failed QC: eligible_day_available
-Task 4:  62%|██████▏   | 60/97 [1:27:21<48:33, 78.74s/it]
+Task 4:  62%|██████▏   | 60/97 [1:27:21<48:33, 78.74s/it]Task 4:  63%|██████▎   | 61/97 [1:29:06<51:58, 86.62s/it]Task 4:  64%|██████▍   | 62/97 [1:30:42<52:02, 89.22s/it]No NPY files written; failed QC: eligible_day_available
+Task 4:  65%|██████▍   | 63/97 [1:32:17<51:34, 91.01s/it]No NPY files written; failed QC: eligible_day_available
+Task 4:  66%|██████▌   | 64/97 [1:33:50<50:22, 91.58s/it]No NPY files written; failed QC: eligible_day_available
+Task 4:  67%|██████▋   | 65/97 [1:35:38<51:33, 96.68s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
+Task 4:  68%|██████▊   | 66/97 [1:36:48<45:49, 88.70s/it]Task 4:  69%|██████▉   | 67/97 [1:38:34<46:57, 93.91s/it]No NPY files written; failed QC: eligible_day_available
+Task 4:  70%|███████   | 68/97 [1:40:16<46:34, 96.36s/it]Task 4:  71%|███████   | 69/97 [1:42:09<47:14, 101.24s/it]Task 4:  72%|███████▏  | 70/97 [1:44:08<47:58, 106.61s/it]Task 4:  73%|███████▎  | 71/97 [1:46:02<47:05, 108.66s/it]Task 4:  74%|███████▍  | 72/97 [1:47:57<46:08, 110.76s/it]Task 4:  75%|███████▌  | 73/97 [1:49:43<43:40, 109.20s/it]Task 4:  76%|███████▋  | 74/97 [1:51:32<41:51, 109.18s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
+Task 4:  77%|███████▋  | 75/97 [1:53:04<38:10, 104.12s/it]Task 4:  78%|███████▊  | 76/97 [1:55:00<37:41, 107.69s/it]No NPY files written; failed QC: calibration_ok
+Task 4:  79%|███████▉  | 77/97 [1:56:35<34:33, 103.68s/it]No NPY files written; failed QC: calibration_ok
+Task 4:  80%|████████  | 78/97 [1:58:09<31:59, 101.04s/it]Task 4:  81%|████████▏ | 79/97 [1:59:57<30:52, 102.93s/it]Task 4:  82%|████████▏ | 80/97 [2:01:42<29:18, 103.46s/it]Task 4:  84%|████████▎ | 81/97 [2:03:36<28:29, 106.87s/it]Task 4:  85%|████████▍ | 82/97 [2:05:21<26:31, 106.13s/it]Task 4:  86%|████████▌ | 83/97 [2:07:20<25:41, 110.10s/it]Task 4:  87%|████████▋ | 84/97 [2:09:05<23:29, 108.42s/it]Task 4:  88%|████████▊ | 85/97 [2:10:53<21:42, 108.55s/it]Task 4:  89%|████████▊ | 86/97 [2:12:36<19:33, 106.65s/it]No NPY files written; failed QC: calibration_ok
+Task 4:  90%|████████▉ | 87/97 [2:14:09<17:05, 102.57s/it]No NPY files written; failed QC: calibration_ok
+Task 4:  91%|█████████ | 88/97 [2:15:44<15:04, 100.49s/it]No NPY files written; failed QC: calibration_ok
+Task 4:  92%|█████████▏| 89/97 [2:17:23<13:19, 99.97s/it] Task 4:  93%|█████████▎| 90/97 [2:19:17<12:09, 104.18s/it]No NPY files written; failed QC: calibration_ok
+Task 4:  94%|█████████▍| 91/97 [2:20:58<10:18, 103.10s/it]Task 4:  95%|█████████▍| 92/97 [2:23:00<09:04, 108.88s/it]Task 4:  96%|█████████▌| 93/97 [2:24:34<06:57, 104.44s/it]Task 4:  97%|█████████▋| 94/97 [2:25:21<04:21, 87.26s/it] Task 4:  98%|█████████▊| 95/97 [2:27:10<03:07, 93.77s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
+Task 4:  99%|█████████▉| 96/97 [2:27:36<01:13, 73.32s/it]Task 4: 100%|██████████| 97/97 [2:29:20<00:00, 82.54s/it]Task 4: 100%|██████████| 97/97 [2:29:20<00:00, 92.38s/it]
+
+--- Task 4 Finished ---
+Eligible: 69 | Ineligible (Failed QC): 27 | Errors: 1

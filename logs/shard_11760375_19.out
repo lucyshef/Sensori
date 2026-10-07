@@ -43,4 +43,22 @@ Processing index 1843 to 1939 (97 files)
 Task 19:  67%|██████▋   | 65/97 [1:22:21<40:33, 76.06s/it]No NPY files written; failed QC: calibration_ok
 Task 19:  68%|██████▊   | 66/97 [1:23:42<40:01, 77.47s/it]Task 19:  69%|██████▉   | 67/97 [1:25:04<39:26, 78.89s/it]No NPY files written; failed QC: calibration_ok
 Task 19:  70%|███████   | 68/97 [1:26:28<38:49, 80.32s/it]No NPY files written; failed QC: calibration_ok
-Task 19:  71%|███████   | 69/97 [1:27:50<37:41, 80.76s/it]
+Task 19:  71%|███████   | 69/97 [1:27:50<37:41, 80.76s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  72%|███████▏  | 70/97 [1:29:10<36:20, 80.77s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  73%|███████▎  | 71/97 [1:30:33<35:11, 81.20s/it]Task 19:  74%|███████▍  | 72/97 [1:32:07<35:29, 85.18s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  75%|███████▌  | 73/97 [1:33:28<33:35, 83.97s/it]Task 19:  76%|███████▋  | 74/97 [1:35:00<33:01, 86.14s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  77%|███████▋  | 75/97 [1:36:19<30:53, 84.23s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  78%|███████▊  | 76/97 [1:37:47<29:51, 85.29s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  79%|███████▉  | 77/97 [1:39:15<28:39, 85.97s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  80%|████████  | 78/97 [1:40:34<26:34, 83.91s/it]Task 19:  81%|████████▏ | 79/97 [1:42:13<26:33, 88.52s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  82%|████████▏ | 80/97 [1:43:38<24:49, 87.60s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  84%|████████▎ | 81/97 [1:45:00<22:53, 85.83s/it]Task 19:  85%|████████▍ | 82/97 [1:46:35<22:07, 88.50s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  86%|████████▌ | 83/97 [1:48:04<20:40, 88.62s/it]Task 19:  87%|████████▋ | 84/97 [1:49:44<19:55, 91.97s/it]Task 19:  88%|████████▊ | 85/97 [1:51:25<18:56, 94.71s/it]Task 19:  89%|████████▊ | 86/97 [1:53:06<17:44, 96.74s/it]
+[Task 19] Error processing 25103_T4_AX6_03082023_acc_gyr.parquet: Parquet must contain at least two samples
+Task 19:  91%|█████████ | 88/97 [1:54:42<11:08, 74.31s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  92%|█████████▏| 89/97 [1:56:10<10:19, 77.48s/it]Task 19:  93%|█████████▎| 90/97 [1:57:56<09:56, 85.16s/it]No NPY files written; failed QC: calibration_ok
+Task 19:  94%|█████████▍| 91/97 [1:59:25<08:36, 86.17s/it]Task 19:  95%|█████████▍| 92/97 [2:01:15<07:43, 92.77s/it]Task 19:  96%|█████████▌| 93/97 [2:03:07<06:33, 98.40s/it]No NPY files written; failed QC: calibration_ok, eligible_day_available
+Task 19:  97%|█████████▋| 94/97 [2:05:01<05:07, 102.64s/it]Task 19:  98%|█████████▊| 95/97 [2:06:43<03:25, 102.62s/it]Task 19:  99%|█████████▉| 96/97 [2:08:25<01:42, 102.36s/it]Task 19: 100%|██████████| 97/97 [2:10:00<00:00, 100.13s/it]Task 19: 100%|██████████| 97/97 [2:10:00<00:00, 80.41s/it] 
+
+--- Task 19 Finished ---
+Eligible: 39 | Ineligible (Failed QC): 57 | Errors: 1
