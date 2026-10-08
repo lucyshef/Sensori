@@ -13,5 +13,5 @@ export NUM_TASKS=25
 
 module load Anaconda3/2025.06-1
 source activate sensori
-cd /users/acp25lmc/Sensori/slurm-jobs
+cd /users/acp25lmc/Sensori/pipelines
 python -u shard_get_npy.py
